@@ -23,7 +23,7 @@ public class TextSongTitle : MonoBehaviour
         buttonNamesList.Add("Bang Bang Bang");
         buttonNamesList.Add("Attention");
         buttonNamesList.Add("Sugar");
-        buttonNamesList.Add("I Don't Think That I Like Her");
+        buttonNamesList.Add("Closer");
     }
 
     public void OnClickButtonA() {
