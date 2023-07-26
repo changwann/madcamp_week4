@@ -14,7 +14,7 @@ public class ChangScene : MonoBehaviour
                 SceneManager.LoadScene("SettingScene");
                 break;
             case "Go_Button" :
-                SceneManager.LoadScene("SampleScene");
+                SceneManager.LoadScene("GameScene");
                 break;
                 
         }

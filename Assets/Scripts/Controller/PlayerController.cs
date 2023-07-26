@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
         theCam = FindObjectOfType<CameraController>();
         myRigid = GetComponentInChildren<Rigidbody>();
         originPos = transform.position;
+        canMove = true;
     }
 
     // Update is called once per frame
