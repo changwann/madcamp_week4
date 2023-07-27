@@ -15,7 +15,7 @@ C:/Users/samsungpc/OneDrive - GIST/바탕 화면/week4
 -logFile
 Logs/AssetImportWorker8.log
 -srvPort
-28396
+4146
 Successfully changed project path to: C:/Users/samsungpc/OneDrive - GIST/바탕 화면/week4
 C:/Users/samsungpc/OneDrive - GIST/바탕 화면/week4
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/samsungpc/OneDrive - GIST/바탕 화면/week4
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25388] Host "[IP] 192.249.29.25 [Port] 0 [Flags] 2 [Guid] 2563408123 [EditorId] 2563408123 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-kimchangwan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27472] Host "[IP] 192.249.29.40 [Port] 0 [Flags] 2 [Guid] 1334832334 [EditorId] 1334832334 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-kimchangwan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25388] Host "[IP] 192.249.29.25 [Port] 0 [Flags] 2 [Guid] 2563408123 [EditorId] 2563408123 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-kimchangwan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27472] Host "[IP] 192.249.29.40 [Port] 0 [Flags] 2 [Guid] 1334832334 [EditorId] 1334832334 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-kimchangwan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 1455.09 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 570.82 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -69,10 +69,4 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.599893 seconds.
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
