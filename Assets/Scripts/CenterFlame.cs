@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CenterFlame : MonoBehaviour
 {
+    private MP3Loader mp3Loader;
+    private FileLoaderSystem fileLoaderSystem;
     bool musicStart = false;
 
     // Update is called once per frame
