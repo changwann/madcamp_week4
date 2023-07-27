@@ -1241,6 +1241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b9a810092585134a84d7e8b13c4a0d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bgmName: BadHabits
 --- !u!82 &219117469
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2584,6 +2585,10 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 76f9e444af16b4a4da27082a85fed490, type: 3}
   - name: BGM2
     clip: {fileID: 8300000, guid: fc48cab9010037949bdf94ea1a4d21e1, type: 3}
+  - name: FeelMyRhythm
+    clip: {fileID: 8300000, guid: c57ea65631915c94ea178301ba14943e, type: 3}
+  - name: BadHabits
+    clip: {fileID: 8300000, guid: 64102f4ca52b1384faad368eaea595a4, type: 3}
   bgmPlayer: {fileID: 1788430416}
   sfxPlayer:
   - {fileID: 1580710219}
@@ -5911,7 +5916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42252947c7f1a50449f0b073d55581e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bpm: 120
+  bpm: 126
   tfNoteAppear: {fileID: 1941707345}
 --- !u!61 &1186719273
 BoxCollider2D:

@@ -4,13 +4,34 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+public class Song 
+{
+    public string Name;
+    //public string composer;
+    public int bpm;
+    //public Sprite sprite;
+}
 
 public class TextSongTitle : MonoBehaviour
 {
     // Start is called before the first frame update
     public TMP_Text SongTitleText;
     public List<string> buttonNamesList = new List<string>();
+    
+    [SerializeField] Song[] songList = null;
+    [SerializeField] Text txtSongName = null;
+    [SerializeField] Text txtSongComposer = null;
+    [SerializeField] Image imgDisk = null;
+    [SerializeField] GameObject TitleMenu = null;
     public int songIndex;
+    int currentSong = 0;
+
+    void SettingSong() {
+        //txtSongName.text = songList[currentSong].name;
+        //txtSongComposer.text = songList[currentSong].composer;
+       // imgDisk.sprite = songList[currentSong].sprite;
+        //AudioManager.instance.PlayBGM("BGM" + currentSong);
+    }
     /*void Start()
     {
           SongTitleText.text = "What kind of song's rhythm do you want to feel?";  
@@ -24,6 +45,7 @@ public class TextSongTitle : MonoBehaviour
         buttonNamesList.Add("Attention");
         buttonNamesList.Add("Sugar");
         buttonNamesList.Add("Closer");
+        buttonNamesList.Add("Original Rhythm");
     }
 
     public void OnClickButtonA() {
@@ -53,6 +75,11 @@ public class TextSongTitle : MonoBehaviour
     }
     public void OnClickButtonF() {
         SongTitleText.text = buttonNamesList[5];
+    }
+    public void OnClickButtonG() {
+        SongTitleText.text = buttonNamesList[6];
+        MusicPlayer musicPlayer = GetComponent<MusicPlayer>();
+        musicPlayer.PlaySong("FeelMyRhythm");
     }
     // Update is called once per frame
 }

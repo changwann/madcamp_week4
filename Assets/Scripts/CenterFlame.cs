@@ -6,6 +6,7 @@ public class CenterFlame : MonoBehaviour
 {
     bool musicStart = false;
 
+    public string bgmName = "BadHabits";
     // Update is called once per frame
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -13,7 +14,7 @@ public class CenterFlame : MonoBehaviour
         {
             if (collision.CompareTag("Note"))
             {
-                AudioManager.instance.PlayBGM("BGM0");
+                AudioManager.instance.PlayBGM(bgmName);
                 musicStart = true;
             }
         }
