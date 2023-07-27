@@ -15,7 +15,7 @@ C:/Users/samsungpc/OneDrive - GIST/바탕 화면/week4
 -logFile
 Logs/AssetImportWorker24.log
 -srvPort
-19567
+1461
 Successfully changed project path to: C:/Users/samsungpc/OneDrive - GIST/바탕 화면/week4
 C:/Users/samsungpc/OneDrive - GIST/바탕 화면/week4
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,7 +49,7 @@ C:/Users/samsungpc/OneDrive - GIST/바탕 화면/week4
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15892] Host "[IP] 192.249.29.36 [Port] 0 [Flags] 2 [Guid] 2504224431 [EditorId] 2504224431 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-kimchangwan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1816] Host "[IP] 192.249.29.40 [Port] 0 [Flags] 2 [Guid] 141481736 [EditorId] 141481736 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-kimchangwan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15892] Host "[IP] 192.249.29.36 [Port] 0 [Flags] 2 [Guid] 2504224431 [EditorId] 2504224431 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-kimchangwan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1816] Host "[IP] 192.249.29.40 [Port] 0 [Flags] 2 [Guid] 141481736 [EditorId] 141481736 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-kimchangwan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 

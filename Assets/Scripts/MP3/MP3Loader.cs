@@ -25,8 +25,13 @@ public class MP3Loader : MonoBehaviour
     [SerializeField]
     private AudioSource audioSource;
 
+    private System.IO.FileInfo currentFile;
+
+
     public void OnLoad(System.IO.FileInfo file)
     {
+        currentFile = file;
+        Debug.Log(currentFile);
         panelMP3Player.SetActive(true);
         textFileName.text = file.Name;
         ResetPlayTimeUI();
@@ -102,5 +107,10 @@ public class MP3Loader : MonoBehaviour
 
             yield return new WaitForSeconds(1);
         }
+    }
+
+    public string GetFileName()
+    {
+        return currentFile != null ? currentFile.FullName : null;
     }
 }

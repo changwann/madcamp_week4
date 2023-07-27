@@ -43,20 +43,6 @@ public class DirectoryController : MonoBehaviour
     {
         currentDirectory = directory;
         directorySpawner.UpdateDirectory(currentDirectory);
-
-        /*
-        Debug.Log($"현재 폴더명: {currentDirectory.Name}");
-
-        foreach (DirectoryInfo dir in currentDirectory.GetDirectories())
-        {
-            Debug.Log($"폴더명: {dir.Name}");
-        }
-
-        foreach (FileInfo file in currentDirectory.GetFiles())
-        {
-            Debug.Log($"파일명: {file.Name}");
-        }
-        */
     }
 
     private void MoveToParentFolder(DirectoryInfo directory)

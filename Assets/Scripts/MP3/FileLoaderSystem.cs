@@ -5,11 +5,15 @@ using System.IO;
 
 public class FileLoaderSystem : MonoBehaviour
 {
-    private MP3Loader mp3Loader;
+    public MP3Loader mp3Loader;
 
-    private void Awake()
+    void Start()
     {
         mp3Loader = GetComponent<MP3Loader>();
+        if (mp3Loader == null)
+        {
+            Debug.LogError("MP3Loader not found on this GameObject!");
+        }
     }
 
     public void LoadFile(FileInfo file)
@@ -25,5 +29,10 @@ public class FileLoaderSystem : MonoBehaviour
     private void OffAllPanel()
     {
         mp3Loader.OffLoad();
+    }
+
+    public string GetFileName()
+    {
+        return mp3Loader.GetFileName();
     }
 }

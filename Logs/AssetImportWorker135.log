@@ -15,7 +15,7 @@ C:/Users/samsungpc/OneDrive - GIST/바탕 화면/week4
 -logFile
 Logs/AssetImportWorker135.log
 -srvPort
-19567
+1461
 Successfully changed project path to: C:/Users/samsungpc/OneDrive - GIST/바탕 화면/week4
 C:/Users/samsungpc/OneDrive - GIST/바탕 화면/week4
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,140 +49,11 @@ C:/Users/samsungpc/OneDrive - GIST/바탕 화면/week4
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27464] Host "[IP] 192.249.29.36 [Port] 0 [Flags] 2 [Guid] 635616728 [EditorId] 635616728 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-kimchangwan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14028] Host "[IP] 192.249.29.40 [Port] 0 [Flags] 2 [Guid] 2771257641 [EditorId] 2771257641 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-kimchangwan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27464] Host "[IP] 192.249.29.36 [Port] 0 [Flags] 2 [Guid] 635616728 [EditorId] 635616728 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-kimchangwan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14028] Host "[IP] 192.249.29.40 [Port] 0 [Flags] 2 [Guid] 2771257641 [EditorId] 2771257641 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-kimchangwan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-mdb reader table full -> cleaning up stale readers. Current readers:
-    pid     thread     txnid
-     27812 59b8 -
-     22460 b60 -
-     27812 50e8 -
-      2268 4028 -
-     11992 6d58 -
-     20636 1c34 -
-      8892 ce8 -
-     12964 4134 -
-     17504 4438 -
-     17556 4b64 -
-     14932 6d04 -
-     25768 50d0 -
-     21500 6664 -
-     21792 b7c -
-     12148 5f3c -
-     21276 46e4 -
-      6292 286c -
-     24580 8 -
-     15328 440 -
-     15016 1534 -
-     25796 62d0 -
-     22780 2abc -
-      4948 1230 -
-     19848 4cdc -
-     27812 3d88 -
-     22656 1b18 -
-     10668 587c -
-     13912 34b0 -
-     24272 de8 -
-     17132 6b18 -
-     20288 5208 -
-     21680 1504 -
-     17532 69f0 -
-     24008 4350 -
-     15924 2eb8 -
-     18084 65f4 -
-     11360 66d8 -
-     25792 760 -
-     14188 2de4 -
-     11808 4394 -
-      3712 4ac -
-     26428 d08 -
-      1224 10f4 -
-     16248 47a8 -
-     28504 5d3c -
-     26468 6ea4 -
-     20964 5054 -
-     13128 16d0 -
-     10160 4740 -
-     14948 4150 -
-      9312 59a4 -
-     12780 5354 -
-     19172 bc0 -
-     11560 3714 -
-     23840 262c -
-     14752 4e30 -
-     20116 1e54 -
-     20632 1c1c -
-     18864 370c -
-     14184 4e00 -
-     16924 361c -
-     18192 2120 -
-     21732 2530 -
-     20064 516c -
-     10540 6c74 -
-      9704 3358 -
-     16044 5050 -
-     11676 6548 -
-     23620 46c0 -
-      9864 59c -
-     22588 6c5c -
-     25504 3774 -
-      2712 1bb4 -
-      2464 2334 -
-     12588 584c -
-     27748 3c5c -
-     25848 2b4c -
-     25512 348c -
-     21252 2d38 -
-     10544 3314 -
-     15604 16f0 -
-     10664 3124 -
-     15516 188 -
-      5104 4824 -
-     25312 3e98 -
-     10152 394 -
-     25416 20b4 -
-     25496 392c -
-     28088 51ec -
-     17944 6620 -
-     19060 6d2c -
-     14356 64f4 -
-     19452 6138 -
-     13956 5aa0 -
-     10496 5770 -
-     19708 b20 -
-     27092 2cf8 -
-      4200 279c -
-     24132 56d0 -
-     15936 6428 -
-     20152 42b0 -
-     20580 2d88 -
-     25272 5e80 -
-      3368 47b0 -
-     28144 413c -
-     13968 50e4 -
-      4400 604c -
-     15180 6940 -
-      6212 6170 -
-      2176 43f4 -
-     13256 2e7c -
-      5408 3a20 -
-     17928 4864 -
-     24404 6250 -
-     13828 6888 -
-     10564 1488 -
-     18348 64b4 -
-      8908 60c -
-     28400 2324 -
-     25336 30a0 -
-     28084 1d3c -
-     26996 6140 -
-      8956 9d0 -
-     26296 6c30 -
-     17360 c18 -
-      1724 5ff4 -
-Cleaned out 119 stale readers
-Refreshing native plugins compatible for Editor in 141.82 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 147.01 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -198,10 +69,15 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.319566 seconds.
+Registered in 0.426408 seconds.
+- Loaded All Assemblies, in  2.636 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 12536 ms
+Native extension for WebGL target not found
