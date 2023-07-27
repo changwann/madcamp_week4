@@ -30,3 +30,7 @@
 .Trashes
 ehthumbs.db
 [Tt]humbs.db
+
+# Ignore Unity log files
+*.log
+

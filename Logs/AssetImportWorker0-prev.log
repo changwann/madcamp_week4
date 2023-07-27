@@ -15,9 +15,15 @@ C:/KAIST/madcamp/madcamp_week4_2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 63228
 Successfully changed project path to: C:/KAIST/madcamp/madcamp_week4_2
 C:/KAIST/madcamp/madcamp_week4_2
+=======
+28396
+Successfully changed project path to: C:/Users/samsungpc/OneDrive - GIST/바탕 화면/week4
+C:/Users/samsungpc/OneDrive - GIST/바탕 화면/week4
+>>>>>>> main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,6 +55,7 @@ C:/KAIST/madcamp/madcamp_week4_2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [27460] Host "[IP] 172.17.240.1 [Port] 0 [Flags] 2 [Guid] 3450059045 [EditorId] 3450059045 [Version] 1048832 [Id] WindowsEditor(7,SeanPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [27460] Host "[IP] 172.17.240.1 [Port] 0 [Flags] 2 [Guid] 3450059045 [EditorId] 3450059045 [Version] 1048832 [Id] WindowsEditor(7,SeanPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -8767,3 +8774,9 @@ C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFD3FC70000), size: 2285568 (r
 
 A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
  * C:/Users/sklee/AppData/Local/Temp/Unity/Editor/Crashes
+=======
+Player connection [21148] Host "[IP] 192.249.29.25 [Port] 0 [Flags] 2 [Guid] 847990452 [EditorId] 847990452 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-kimchangwan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21148] Host "[IP] 192.249.29.25 [Port] 0 [Flags] 2 [Guid] 847990452 [EditorId] 847990452 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-kimchangwan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+>>>>>>> main
